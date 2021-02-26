@@ -82,6 +82,7 @@ nav {
 nav #nav-top {
     width: 40vw;
     height: 40px;
+    margin-right: -730px;
     background-color: #C3321B;
     display: flex;
     align-items: center;
@@ -89,7 +90,7 @@ nav #nav-top {
     font-family: 'Open Sans';
     font-weight: bold;
     font-style: normal;
-    font-size: 0.8rem;
+    font-size: 0.82rem;
 }
 
 nav #nav-top-text {
@@ -103,6 +104,34 @@ nav #nav-bot {
     width: 100vw;
     height: 100px;
     background-color: #F64225;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav #nav-bot #nav-logo {
+    font-size: 2.5rem;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+} 
+
+nav #nav-bot #nav-menu {
+    min-width: 900px;
+    list-style-type: none;
+    font-size: 0.93rem;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-icon {
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 #home-carousel {
