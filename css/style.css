@@ -1,3 +1,66 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('/assets/Georgia.woff2') format('woff2'),
+        url('/assets/Georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/Roboto-Thin.woff2') format('woff2'),
+        url('/assets/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('/assets/PTSans-NarrowBold.woff2') format('woff2'),
+        url('/assets/PTSans-NarrowBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/OpenSans-Bold.woff2') format('woff2'),
+        url('/assets/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+#colors {
+    color: #FFDD8B; 
+    color: #FFFFFF;
+    color: #242021;
+    color: #7C7C7C;
+    color: #ABABAB;
+    color: #68BB35;
+    color: #F64225;
+    color: #C3321B;
+}
+
+.color-yellow {
+    color: #FFDD8B; 
+}
+
+.color-white {
+    color: #FFFFFF;  
+}
+
+.color-black {
+    color: #242021;
+}
+
+.color-red {
+    color: #F64225;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -8,14 +71,32 @@ body {
 nav {
     width: 100vw;
     height: 140px;
+    background-color: #C3321B;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 nav #nav-top {
-    width: 100vw;
+    width: 40vw;
     height: 40px;
     background-color: #C3321B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+nav #nav-top-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 220px;
 }
 
 nav #nav-bot {
