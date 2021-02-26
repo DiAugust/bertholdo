@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav #nav-top {
+    width: 100vw;
+    height: 40px;
+    background-color: #C3321B;
+}
+
+nav #nav-bot {
+    width: 100vw;
+    height: 100px;
+    background-color: #F64225;
+}
+
+#home-carousel {
+    width: 100vw;
+    height: 450px;
+    background-color: #1A1A1A;
+}
+
+#home-description {
+    width: 100vw;
+    height: 180px;
+    background-color: aquamarine;
+}
+
+#products {
+    width: 100vw;
+    height: 700px;
+    background-color: #EBEBEB;
+}
+
+#whatsapp {
+    width: 100vw;
+    height: 360px;
+    background-color: #FFFFFF;
+}
+
+#form {
+    width: 100vw;
+    height: 600px;
+    background-color: #292728;
+}
+
+#footer {
+    width: 100vw;
+    height: 360px;
+    background-color: #231F20;
+}
+
+#footer-bot {
+    width: 100vw;
+    height: 40px;
+    background-color: #100E0F;
+}
