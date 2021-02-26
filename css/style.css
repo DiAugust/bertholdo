@@ -144,6 +144,44 @@ nav #nav-bot #nav-menu {
     width: 100vw;
     height: 180px;
     background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+}
+
+.description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 1.1rem;
+    padding: 25px;
+}
+
+#description-container0 {
+    background-color: #231F20;
+}
+
+#description-container1 {
+    background-color: #1F1B1C;
+}
+
+#description-container2 {
+    background-color: #161415;
+}
+
+#description-container3 {
+    background-color: #0F0D0E;
+}
+
+.btn-decoration {
+    border: 1px solid white;
+    padding: 13px;
+    border-radius: 10px;
 }
 
 #products {
