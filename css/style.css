@@ -1,39 +1,3 @@
-@font-face {
-    font-family: 'Georgia';
-    src: url('/assets/Georgia.woff2') format('woff2'),
-        url('/assets/Georgia.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('/assets/Roboto-Thin.woff2') format('woff2'),
-        url('/assets/Roboto-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'PT Sans Narrow';
-    src: url('/assets/PTSans-NarrowBold.woff2') format('woff2'),
-        url('/assets/PTSans-NarrowBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('/assets/OpenSans-Bold.woff2') format('woff2'),
-        url('/assets/OpenSans-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
 #colors {
     color: #FFDD8B; 
     color: #FFFFFF;
@@ -76,53 +40,61 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 nav #nav-top {
-    width: 40vw;
+    min-width: 45vw;
     height: 40px;
-    margin-right: -730px;
-    background-color: #C3321B;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-family: 'Open Sans';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 0.82rem;
 }
 
 nav #nav-top-text {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    min-width: 215px;
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav #nav-top-numbers {
+    display: flex;
+    align-items: center;
     justify-content: space-around;
-    min-width: 220px;
+    min-width: 600px;
+    font-size: 0.84rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
 }
 
 nav #nav-bot {
-    width: 100vw;
+    width: 75vw;
     height: 100px;
     background-color: #F64225;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
 }
 
 nav #nav-bot #nav-logo {
+    font-family: 'Poppins';
+    font-weight: 800;
     font-size: 2.5rem;
-    font-family: 'Open Sans';
-    font-weight: bold;
-    font-style: normal;
 } 
 
 nav #nav-bot #nav-menu {
-    min-width: 900px;
+    min-width: 700px;
     list-style-type: none;
     font-size: 0.93rem;
-    font-family: 'Open Sans';
-    font-weight: bold;
-    font-style: normal;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -155,9 +127,6 @@ nav #nav-bot #nav-menu {
     justify-content: space-around;
     text-align: center;
     flex-direction: column;
-    font-family: 'Open Sans';
-    font-weight: bolder;
-    font-style: normal;
     font-size: 1.1rem;
     padding: 25px;
 }
