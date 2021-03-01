@@ -1,184 +1,252 @@
-#colors {
-    color: #FFDD8B; 
-    color: #FFFFFF;
-    color: #242021;
-    color: #7C7C7C;
-    color: #ABABAB;
-    color: #68BB35;
-    color: #F64225;
-    color: #C3321B;
-}
-
-.color-yellow {
-    color: #FFDD8B; 
-}
-
-.color-white {
-    color: #FFFFFF;  
-}
-
-.color-black {
-    color: #242021;
-}
-
-.color-red {
-    color: #F64225;
-}
-
 body {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
     overflow-x: hidden;
 }
 
-nav {
-    width: 100vw;
-    height: 140px;
+#nav-info {
     background-color: #C3321B;
+    width: 100vw;
+    height: 45px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFDD8B;
+}
+
+.nav-info-margin-left {
+    margin-left: 30%;
+}
+
+.nav-info-margin-right {
+    margin-right: 30%;
+}
+
+#nav-menu {
+    background-color: #F64225;
+    width: 100vw;
+    height: 130px;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-nav #nav-top {
-    min-width: 45vw;
-    height: 40px;
+.nav-logo {
+    height: 30%;
+}
+
+.nav-ul {
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-nav #nav-top-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 215px;
-    font-size: 0.8rem;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-style: normal;
-}
-
-nav #nav-top-numbers {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-width: 600px;
-    font-size: 0.84rem;
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-style: normal;
-}
-
-nav #nav-bot {
-    width: 75vw;
-    height: 100px;
-    background-color: #F64225;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 0.9rem;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-style: normal;
-}
-
-nav #nav-bot #nav-logo {
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 2.5rem;
-} 
-
-nav #nav-bot #nav-menu {
     min-width: 700px;
-    list-style-type: none;
-    font-size: 0.93rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    color: #ffff;
 }
 
-.search-icon {
-    padding: 8px;
+#btn-search {
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 10px;
-}
-
-#home-carousel {
-    width: 100vw;
-    height: 450px;
-    background-color: #1A1A1A;
-}
-
-#home-description {
-    width: 100vw;
-    height: 180px;
-    background-color: aquamarine;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100%;
-}
-
-.description-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    flex-direction: column;
-    font-size: 1.1rem;
-    padding: 25px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-#description-container0 {
-    background-color: #231F20;
+.btn-search {
+    width: 15px;
+    background-color: white;
 }
 
-#description-container1 {
-    background-color: #1F1B1C;
+.nav-mobile {
+    display: none;
 }
 
-#description-container2 {
-    background-color: #161415;
+.nav-mobile-btn {
+    width: 50px;
+    cursor: pointer;
 }
 
-#description-container3 {
-    background-color: #0F0D0E;
+#banner-carousel {
+    background-color: gray;
+    width: 100vw;
+    height: 400px;
 }
 
-.btn-decoration {
-    border: 1px solid white;
-    padding: 13px;
-    border-radius: 10px;
+#info-section {
+    background-color: thistle;
+    width: 100vw;
+    height: 250px;
 }
 
 #products {
+    background-color: #EBEBEB;
     width: 100vw;
     height: 700px;
-    background-color: #EBEBEB;
 }
 
-#whatsapp {
+#contact-whatsapp {
+    background-color: white;
     width: 100vw;
-    height: 360px;
-    background-color: #FFFFFF;
+    height: 300px;
 }
 
-#form {
+#contact-form {
+    background-color: gray;
     width: 100vw;
-    height: 600px;
-    background-color: #292728;
+    height: 500px;
 }
 
-#footer {
-    width: 100vw;
-    height: 360px;
+#footer-desc {
     background-color: #231F20;
+    width: 100vw;
+    height: 265px
 }
 
-#footer-bot {
-    width: 100vw;
-    height: 40px;
+#footer-cred {
     background-color: #100E0F;
+    width: 100vw;
+    height: 35px;
 }
+
+#btn-search {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btn-search {
+    width: 50%;
+    background-color: white;
+}
+
+@media screen and (max-width: 1440px) {
+    .nav-info-margin-left {
+        margin-left: 20%;
+    }
+    
+    .nav-info-margin-right {
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-info-margin-left {
+        margin-left: 10%;
+    }
+    
+    .nav-info-margin-right {
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #nav-info {
+        font-size: 0.8rem;
+    }
+
+    .nav-ul {
+        min-width: 650px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #nav-info {
+        font-size: 0.7rem;
+    }
+
+    .nav-ul {
+        min-width: 450px;
+        font-size: 0.7rem;
+    }
+
+    #btn-search {
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .btn-search {
+        width: 50%;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #nav-info {
+        font-size: 0.6rem;
+    }
+
+    .nav-info-margin-left {
+        margin-left: 0;
+    }
+    
+    .nav-info-margin-right {
+        margin-right: 0;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    #nav-info {
+        font-size: 0.5rem;
+    }
+
+    .nav-info-margin-left {
+        margin-left: 0;
+    }
+    
+    .nav-info-margin-right {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #nav-info {
+        font-size: 0.5rem;
+    }
+
+    .nav-info-margin-left {
+        margin-left: 0;
+    }
+    
+    .nav-info-margin-right {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #nav-info {
+        font-size: 0.4rem;
+    }
+
+    .nav-info-margin-left {
+        margin-left: 0;
+    }
+    
+    .nav-info-margin-right {
+        margin-right: 0;
+    }
+}
+
